@@ -28,30 +28,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-/*
-child: Center(
-        child: Text(
-          "Hello World",
-          textAlign: TextAlign.center,
-        ),
-      ),
-
-
-    
-
-  Column(
-          children: const [
-            SizedBox(
-              height: 50,
-            ),
-          Center(
-            child: Text('Lorem Ipsum',
-              style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
-            ),
-          ),
-        ],
-      ),       
-
-*/
