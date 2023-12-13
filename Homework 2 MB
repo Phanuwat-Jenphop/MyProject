@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:math';
+import 'dart:math';  
 
 void main() {
   runApp(const MyApp());
@@ -32,8 +32,7 @@ class MyApp extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center, //  ตั้ง
         crossAxisAlignment: CrossAxisAlignment.center, // นอน
         children: [
-          // 1
-          
+          // 1    
           if (intValue == 0) ...[
             Image.asset(
               'images/final.jpg',
@@ -103,3 +102,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+
